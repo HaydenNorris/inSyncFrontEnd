@@ -18,8 +18,8 @@
           </div>
         </transition>
         <div class="button-container">
-          <button class="prev" @click="prevSlide"><</button>
-          <button class="next" @click="nextSlide">></button>
+          <button class="prev" @click="prevSlide"></button>
+          <button class="next" @click="nextSlide"></button>
         </div>
       </div>
     </div>
