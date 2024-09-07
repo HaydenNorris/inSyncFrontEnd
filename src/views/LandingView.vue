@@ -18,7 +18,7 @@
         </button>
       </div>
       <div class="logo">
-        <img src="../images/insyncLogo.png" alt="logo" />
+        <img src="@/images/insyncLogo.png" alt="logo" />
       </div>
       <p class="welcome">Hi, {{ $userStore.name }}!</p>
       <div class="button-container">
@@ -42,7 +42,7 @@
 </template>
 
 <script setup>
-import modal from '../components/modal.vue'
+import modal from '@/components/modal.vue'
 </script>
 
 <script>

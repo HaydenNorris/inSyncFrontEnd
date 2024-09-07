@@ -2,7 +2,7 @@
   <div class="container" v-if="show" @click="close">
     <div class="content">
       <div class="header">
-        <img src="../images/resultsIcon.png" alt="Results Icon" />
+        <img src="@/images/resultsIcon.png" alt="Results Icon" />
         <h2>{{ modalHeading }}</h2>
       </div>
       <p class="objective">
@@ -302,7 +302,7 @@ input[type='range']::-webkit-slider-thumb {
   appearance: none;
   height: 4em;
   width: 4em;
-  background: url('../images/starOption.png') center no-repeat;
+  background: url('@/images/starOption.png') center no-repeat;
   background-size: cover;
   cursor: grab;
   position: relative;

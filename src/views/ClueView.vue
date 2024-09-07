@@ -77,8 +77,8 @@
 </template>
 
 <script>
-import Slider from '../components/slider.vue'
-import FunFactsModal from '../components/funFactsModal.vue'
+import Slider from '@/components/slider.vue'
+import FunFactsModal from '@/components/funFactsModal.vue'
 
 export default {
   components: {

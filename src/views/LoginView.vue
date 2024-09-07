@@ -12,7 +12,7 @@
         Back
       </button>
       <div class="logo">
-        <img src="../images/insyncLogo.png" alt="Logo of inSync" />
+        <img src="@/images/insyncLogo.png" alt="Logo of inSync" />
       </div>
       <form name="loginForm" @reset="resetFields" @submit.prevent="handleSubmit" id="loginForm" role="form">
         <div class="inputContainer">
@@ -89,7 +89,7 @@
 </template>
 
 <script>
-import messageAlert from '../components/MessageAlert.vue'
+import messageAlert from '@/components/MessageAlert.vue'
 
 export default {
   components: {

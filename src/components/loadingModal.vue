@@ -3,10 +3,10 @@
     <div class="content">
       <slot>
         <div class="dizzy">
-          <img width=300 src="../images/dizzy.gif" alt="dizzy loading animation"/>
+          <img width=300 src="@/images/dizzy.gif" alt="dizzy loading animation"/>
         </div>
         <div class="koba">
-          <img width=700 src="../images/kobaGif.gif" alt="dog loading animation"/>
+          <img width=700 src="@/images/kobaGif.gif" alt="dog loading animation"/>
         </div>
       </slot>
     </div>

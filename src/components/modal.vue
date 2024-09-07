@@ -3,9 +3,9 @@
     <div class="content">
       <div class="header">
         <div class="closeButton">
-          <img src="../images/close.png" alt="Close Button" @click="exit" />
+          <img src="@/images/close.png" alt="Close Button" @click="exit" />
         </div>
-        <img src="../images/howToIcon3.png" alt="How to Icon"/>
+        <img src="@/images/howToIcon3.png" alt="How to Icon"/>
         <h2>{{ modalHeading }}</h2>
       </div>
       <p class="objective" v-html="header"></p>

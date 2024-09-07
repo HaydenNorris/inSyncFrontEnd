@@ -3,9 +3,9 @@
     <div class="content" @click.stop>
       <div class="header">
         <div class="closeButton">
-          <img src="../images/close.png" @click="exit" alt="Close" />
+          <img src="@/images/close.png" @click="exit" alt="Close" />
         </div>
-        <img class="waitingIcon" src="../images/waitingIcon.png" alt="Waiting Icon" />
+        <img class="waitingIcon" src="@/images/waitingIcon.png" alt="Waiting Icon" />
         <h2>Waiting for other players...</h2>
       </div>
       <p class="objective" v-html="header"></p>

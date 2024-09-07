@@ -61,7 +61,7 @@ input[type='range']::-webkit-slider-thumb {
   appearance: none;
   height: 5em;
   width: 5em;
-  background: url('../images/cutestar3.png') center no-repeat;
+  background: url('@/images/cutestar3.png') center no-repeat;
   background-size: cover;
   cursor: grab;
   position: relative;
