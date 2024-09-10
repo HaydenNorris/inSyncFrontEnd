@@ -82,6 +82,9 @@ export default {
   },
   created() {
     this.clearStores()
+    if (!this.$userStore.isLoggedIn) {
+      this.$router.push('/login')
+    }
   },
   methods: {
     togglePlay() {

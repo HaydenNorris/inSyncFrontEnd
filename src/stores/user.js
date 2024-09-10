@@ -4,7 +4,7 @@ import axios from 'axios'
 export const userStore = defineStore('user', {
   state: () => ({ user: null, token:null }),
   getters: {
-    isLoggedIn: (state) => !!state.user,
+    isLoggedIn: (state) => !!state.user?.id,
     name: (state) => state.user?.name,
     id: (state) => state.user?.id,
   },
